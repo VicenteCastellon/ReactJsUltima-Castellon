@@ -8,9 +8,10 @@ export const CartWidget = () => {
   const { cart } = useContext(CartContext); // siempre devuelve el objeto del value
 
   return (
-    <Link to="/cart">
+    <Link to="/cart" className="cart-widget">
       <FaShoppingCart />
       <span>{cart.length}</span>
     </Link>
   );
 };
+

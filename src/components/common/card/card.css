@@ -1,0 +1,46 @@
+/* Tarjeta con estilo urbano */
+.product-card {
+    background-color: #1f1f1f; /* Fondo oscuro */
+    color: #ddd; /* Texto claro */
+    border: none; /* Sin borde */
+    transition: transform 0.3s ease-in-out; /* Animación al hacer hover */
+    width: 220px;
+    height: 350px;
+    margin: 15px;
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05);
+    border: 1px solid #ff4500; /* Línea naranja solo al hacer hover */
+  }
+  
+  /* Imagen de la tarjeta */
+  .card-img-top {
+    border-bottom: 2px solid #ff4500; /* Línea naranja debajo de la imagen */
+  }
+  
+  /* Título y precio */
+  .card-title {
+    font-size: 1.1rem;
+    font-weight: bold;
+  }
+  
+  .card-price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #ff4500; /* Texto naranja para el precio */
+  }
+  
+  /* Botón con estilo urbano */
+  .urban-button {
+    background-color: transparent;
+    border: 1px solid #ff4500; /* Borde naranja */
+    color: #ff4500;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+  
+  .urban-button:hover {
+    background-color: #ff4500;
+    color: #1f1f1f; /* Texto oscuro al hacer hover */
+  }
+  
